@@ -1,6 +1,6 @@
 import { useState } from "react"
-import Form from "./Components/Form"
-import Output from "./Components/Output"
+import Form from "./components/Form"
+import Output from "./components/Output"
 import {Toaster} from "react-hot-toast"
 
 const App = () => {
