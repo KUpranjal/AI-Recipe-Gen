@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import {useDispatch, useSelector} from "react-redux"
 import toast from "react-hot-toast"
 import { GoogleGenAI } from "@google/genai";
-import { addRecipe } from "../Utils/CacheSlice";
+import { addRecipe } from "../utils/CacheSlice";
 
 const ai = new GoogleGenAI({apiKey : import.meta.env.VITE_API_KEY});
 

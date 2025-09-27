@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const cacheSlice = createSlice({
+const CacheSlice = createSlice({
     name: "cache",               // Use lowercase for consistency
     initialState: [],            // Array for cached recipes
     reducers: {
@@ -10,5 +10,5 @@ const cacheSlice = createSlice({
     }
 });
 
-export default cacheSlice.reducer;
-export const { addRecipe } = cacheSlice.actions;
+export default CacheSlice.reducer;
+export const { addRecipe } = CacheSlice.actions;
